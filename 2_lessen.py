@@ -8,13 +8,13 @@
 # Write a program that reads the user's score and indicates the user's performance
 # level, as well as the amount of money the user will receive.
 
-point_input = int(input())
-if point_input == 0:
-    print("Your level is Unacceptable")
-    print("Your money: ", 0)
-elif point_input > 0 and point_input <= 0.4:
-    print("Your level is Acceptable")
+point_input = float(input())
+if point_input >= 0 and point_input <= 0.4:
+    print("Your level: Unacceptable")
+    print("Your money: ", point_input * 2400)
+elif point_input > 0.4 and point_input < 0.6:
+    print("Your level: Acceptable")
     print("Your money: ", point_input * 2400)
 elif point_input >= 0.6:
-    print("Your level is Meritorio")
-    print("Your money: ", point_input * 2400)
+    print("Your level: Meritorio")
+    print("Your money:", point_input * 2400)
