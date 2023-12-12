@@ -3,6 +3,9 @@
 # fruit. If the fruit is not in the dictionary, it should display a message informing about
 # it.
 
+# Раньше я не изучал словари, но посмотрел в интернете. Алиенски, сапсибо за
+# интересную задачу, по которой я изучил новый инструмент в питоне
+
 dict_fruits = {
     "Banana":1.35,
     "Apple":0.80,
